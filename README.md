@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Team-Messaging-Collaboration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Team-Messaging-Collaboration?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Team-Messaging-Collaboration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Team-Messaging-Collaboration?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Team-Messaging-Collaboration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Team-Messaging-Collaboration?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Team-Messaging-Collaboration/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Team-Messaging-Collaboration?style=flat-square&color=success" alt="Open Issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Team-Messaging-Collaboration/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0"/></a>
@@ -82,7 +82,7 @@ Commercial, cloud-hosted Team Messaging and Collaboration platforms sorted by co
 
 Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by GitHub stargazers count (descending).
 
-### 🚀 Rocket.Chat [![GitHub stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers)
+### 🚀 Rocket.Chat [![GitHub_Stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers)
 - **Stack:** 💻 TypeScript / Node.js / MongoDB
 - **License:** ⚖️ MIT (Community) / Open Core
 - **Repository:** 🔗 [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
@@ -92,7 +92,7 @@ Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by 
 
 ---
 
-### 💻 Mattermost [![GitHub stars](https://img.shields.io/github/stars/mattermost/mattermost?style=social&color=white)](https://github.com/mattermost/mattermost/stargazers)
+### 💻 Mattermost [![GitHub_Stars](https://img.shields.io/github/stars/mattermost/mattermost?style=social&color=white)](https://github.com/mattermost/mattermost/stargazers)
 - **Stack:** 💻 Go / React / PostgreSQL
 - **License:** ⚖️ MIT (Team Edition) / Open Core
 - **Repository:** 🔗 [mattermost/mattermost](https://github.com/mattermost/mattermost)
@@ -102,7 +102,7 @@ Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by 
 
 ---
 
-### 📥 Chatwoot [![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)
+### 📥 Chatwoot [![GitHub_Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)
 - **Stack:** 💻 Ruby on Rails / Vue.js / PostgreSQL / Redis
 - **License:** ⚖️ AGPL-3.0
 - **Repository:** 🔗 [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
@@ -111,7 +111,7 @@ Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by 
 
 ---
 
-### ⚡ Buzz (Block) [![GitHub stars](https://img.shields.io/github/stars/block/buzz?style=social&color=white)](https://github.com/block/buzz/stargazers)
+### ⚡ Buzz (Block) [![GitHub_Stars](https://img.shields.io/github/stars/block/buzz?style=social&color=white)](https://github.com/block/buzz/stargazers)
 - **Stack:** 💻 Rust / Nostr Protocol / PostgreSQL / Redis
 - **License:** ⚖️ Apache 2.0
 - **Repository:** 🔗 [block/buzz](https://github.com/block/buzz)
@@ -120,7 +120,7 @@ Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by 
 
 ---
 
-### 🧵 Zulip [![GitHub stars](https://img.shields.io/github/stars/zulip/zulip?style=social&color=white)](https://github.com/zulip/zulip/stargazers)
+### 🧵 Zulip [![GitHub_Stars](https://img.shields.io/github/stars/zulip/zulip?style=social&color=white)](https://github.com/zulip/zulip/stargazers)
 - **Stack:** 💻 Python / Django / PostgreSQL
 - **License:** ⚖️ Apache 2.0
 - **Repository:** 🔗 [zulip/zulip](https://github.com/zulip/zulip)
@@ -129,7 +129,7 @@ Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by 
 
 ---
 
-### 🛡️ SimpleX Chat [![GitHub stars](https://img.shields.io/github/stars/simplex-chat/simplex-chat?style=social&color=white)](https://github.com/simplex-chat/simplex-chat/stargazers)
+### 🛡️ SimpleX Chat [![GitHub_Stars](https://img.shields.io/github/stars/simplex-chat/simplex-chat?style=social&color=white)](https://github.com/simplex-chat/simplex-chat/stargazers)
 - **Stack:** 💻 Haskell / Kotlin / Swift
 - **License:** ⚖️ AGPL-3.0
 - **Repository:** 🔗 [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat)
@@ -138,7 +138,7 @@ Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by 
 
 ---
 
-### 🌐 Element (Matrix) [![GitHub stars](https://img.shields.io/github/stars/element-hq/element-web?style=social&color=white)](https://github.com/element-hq/element-web/stargazers)
+### 🌐 Element (Matrix) [![GitHub_Stars](https://img.shields.io/github/stars/element-hq/element-web?style=social&color=white)](https://github.com/element-hq/element-web/stargazers)
 - **Stack:** 💻 TypeScript / React / Matrix Protocol
 - **License:** ⚖️ AGPL-3.0
 - **Repository:** 🔗 [element-hq/element-web](https://github.com/element-hq/element-web)
@@ -147,7 +147,7 @@ Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by 
 
 ---
 
-### 📡 Tinode [![GitHub stars](https://img.shields.io/github/stars/tinode/chat?style=social&color=white)](https://github.com/tinode/chat/stargazers)
+### 📡 Tinode [![GitHub_Stars](https://img.shields.io/github/stars/tinode/chat?style=social&color=white)](https://github.com/tinode/chat/stargazers)
 - **Stack:** 💻 Go / gRPC / MySQL / PostgreSQL / RethinkDB
 - **License:** ⚖️ GPL-3.0
 - **Repository:** 🔗 [tinode/chat](https://github.com/tinode/chat)
@@ -156,7 +156,7 @@ Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by 
 
 ---
 
-### 🏛️ Matrix Synapse [![GitHub stars](https://img.shields.io/github/stars/matrix-org/synapse?style=social&color=white)](https://github.com/matrix-org/synapse/stargazers)
+### 🏛️ Matrix Synapse [![GitHub_Stars](https://img.shields.io/github/stars/matrix-org/synapse?style=social&color=white)](https://github.com/matrix-org/synapse/stargazers)
 - **Stack:** 💻 Python / Twisted / Rust / PostgreSQL
 - **License:** ⚖️ AGPL-3.0
 - **Repository:** 🔗 [matrix-org/synapse](https://github.com/matrix-org/synapse)
@@ -165,7 +165,7 @@ Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by 
 
 ---
 
-### 🎮 Spacebar [![GitHub stars](https://img.shields.io/github/stars/spacebarchat/spacebarchat?style=social&color=white)](https://github.com/spacebarchat/spacebarchat/stargazers)
+### 🎮 Spacebar [![GitHub_Stars](https://img.shields.io/github/stars/spacebarchat/spacebarchat?style=social&color=white)](https://github.com/spacebarchat/spacebarchat/stargazers)
 - **Stack:** 💻 TypeScript / Node.js / Express
 - **License:** ⚖️ AGPL-3.0
 - **Repository:** 🔗 [spacebarchat/spacebarchat](https://github.com/spacebarchat/spacebarchat)
@@ -174,7 +174,7 @@ Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by 
 
 ---
 
-### 📝 Colanode [![GitHub stars](https://img.shields.io/github/stars/colanode/colanode?style=social&color=white)](https://github.com/colanode/colanode/stargazers)
+### 📝 Colanode [![GitHub_Stars](https://img.shields.io/github/stars/colanode/colanode?style=social&color=white)](https://github.com/colanode/colanode/stargazers)
 - **Stack:** 💻 TypeScript / Rust / CRDTs (Yjs) / SQLite
 - **License:** ⚖️ AGPL-3.0
 - **Repository:** 🔗 [colanode/colanode](https://github.com/colanode/colanode)
@@ -183,7 +183,7 @@ Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by 
 
 ---
 
-### ✨ Cinny [![GitHub stars](https://img.shields.io/github/stars/cinnyapp/cinny?style=social&color=white)](https://github.com/cinnyapp/cinny/stargazers)
+### ✨ Cinny [![GitHub_Stars](https://img.shields.io/github/stars/cinnyapp/cinny?style=social&color=white)](https://github.com/cinnyapp/cinny/stargazers)
 - **Stack:** 💻 JavaScript / React / Matrix SDK
 - **License:** ⚖️ MIT / AGPL-3.0
 - **Repository:** 🔗 [cinnyapp/cinny](https://github.com/cinnyapp/cinny)
@@ -192,7 +192,7 @@ Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by 
 
 ---
 
-### 🧩 Tailchat [![GitHub stars](https://img.shields.io/github/stars/msgbyte/tailchat?style=social&color=white)](https://github.com/msgbyte/tailchat/stargazers)
+### 🧩 Tailchat [![GitHub_Stars](https://img.shields.io/github/stars/msgbyte/tailchat?style=social&color=white)](https://github.com/msgbyte/tailchat/stargazers)
 - **Stack:** 💻 TypeScript / React / Moleculer / MongoDB
 - **License:** ⚖️ Apache 2.0
 - **Repository:** 🔗 [msgbyte/tailchat](https://github.com/msgbyte/tailchat)
@@ -201,7 +201,7 @@ Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by 
 
 ---
 
-### 🦊 Stoat (formerly Revolt) [![GitHub stars](https://img.shields.io/github/stars/stoatchat/stoatchat?style=social&color=white)](https://github.com/stoatchat/stoatchat/stargazers)
+### 🦊 Stoat (formerly Revolt) [![GitHub_Stars](https://img.shields.io/github/stars/stoatchat/stoatchat?style=social&color=white)](https://github.com/stoatchat/stoatchat/stargazers)
 - **Stack:** 💻 Rust / TypeScript / Actix / MongoDB
 - **License:** ⚖️ AGPL-3.0
 - **Repository:** 🔗 [stoatchat/stoatchat](https://github.com/stoatchat/stoatchat)
@@ -210,7 +210,7 @@ Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by 
 
 ---
 
-### 🔐 Wire Server [![GitHub stars](https://img.shields.io/github/stars/wireapp/wire-server?style=social&color=white)](https://github.com/wireapp/wire-server/stargazers)
+### 🔐 Wire Server [![GitHub_Stars](https://img.shields.io/github/stars/wireapp/wire-server?style=social&color=white)](https://github.com/wireapp/wire-server/stargazers)
 - **Stack:** 💻 Haskell / Kubernetes / Cassandra / Elasticsearch
 - **License:** ⚖️ AGPL-3.0
 - **Repository:** 🔗 [wireapp/wire-server](https://github.com/wireapp/wire-server)
