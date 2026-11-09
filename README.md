@@ -2,119 +2,166 @@
 
 # Awesome Team Messaging & Collaboration
 
-> A curated list of top Team Messaging and Collaboration platforms — both SaaS/Hosted commercial solutions and open-source alternatives for real-time chat, channels, and team communication.
+> A curated list of top Team Messaging and Collaboration platforms — both SaaS/Hosted commercial solutions and open-source alternatives for real-time chat, channels, and team communication.  
 > 🌟 Star this repo if you find it useful! 🌟
 
 ---
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Slack](#slack)
-  - [Microsoft Teams](#microsoft-teams)
-  - [Google Chat](#google-chat)
-  - [Discord](#discord)
-  - [Cisco Webex App](#cisco-webex-app)
-  - [Zoho Cliq](#zoho-cliq)
 - [Open-Source Software](#-open-source-software)
-  - [Mattermost](#mattermost)
   - [Rocket.Chat](#rocketchat)
-  - [Zulip](#zulip)
-  - [Element (Matrix)](#element-matrix)
+  - [Mattermost](#mattermost)
+  - [Chatwoot](#chatwoot)
   - [Buzz (Block)](#buzz-block)
-  - [Stoat (Revolt)](#stoat-revolt)
+  - [Zulip](#zulip)
+  - [SimpleX Chat](#simplex-chat)
+  - [Element (Matrix)](#element-matrix)
+  - [Tinode](#tinode)
+  - [Matrix Synapse](#matrix-synapse)
   - [Spacebar](#spacebar)
+  - [Colanode](#colanode)
+  - [Cinny](#cinny)
+  - [Tailchat](#tailchat)
+  - [Stoat (Revolt)](#stoat-revolt)
+  - [Wire Server](#wire-server)
 - [Comparison at a Glance](#-comparison-at-a-glance)
 - [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global team collaboration software market is estimated at approximately **$21B to $40B+**, continuing to grow at an annual CAGR of roughly **9.5% to 12%**. Structurally, the sector exhibits a **concentrated oligopoly at the top** dominated by mega-suite tech giants (Microsoft 365/Teams, Google Workspace/Chat, and Salesforce/Slack) that leverage pre-existing enterprise ecosystem distribution, while remaining **highly fragmented across the mid-market, SMB, and open-source layers** where niche providers compete on async workflows, developer-centric tooling, and privacy/self-hosted compliance.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Team Messaging and Collaboration platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted Team Messaging and Collaboration platforms sorted by company valuation/market capitalization (descending).
 
-### Slack
-**Type:** Industry-standard channel-based messaging  
-Slack is the most widely adopted team messaging platform, with channels, threads, direct messages, voice/video calls (via Slack Huddles), and an extensive app ecosystem. Its strength is the maturity of its integrations and the familiarity of its channel model. The trade-off is per-seat pricing that scales with team size, and data residing on Slack's infrastructure rather than your own.
-
-### Microsoft Teams
-**Type:** Collaboration hub within Microsoft 365  
-Teams bundles chat, meetings, file collaboration, and app integrations into a single workspace. Deeply embedded in Microsoft 365, making it the default choice for organizations standardized on Microsoft. Its chat experience is closely tied to the broader Office ecosystem, with channel-based conversations and persistent history.
-
-### Google Chat
-**Type:** Messaging within Google Workspace  
-Google Chat provides direct messages and spaces (channels) integrated with Google Workspace. It is the natural choice for Google-first organizations, with tight integration into Gmail, Drive, and Meet. Its feature set is leaner than Slack or Teams, but it covers core messaging needs without additional vendor relationships.
-
-### Discord
-**Type:** Community-focused servers and channels  
-Discord is built around servers, channels, and voice rooms, originally for gaming communities but now used broadly for community and team communication. Its strength is real-time voice and community management features. It is not designed for enterprise governance, and data resides on Discord's infrastructure.
-
-### Cisco Webex App
-**Type:** Messaging within Webex collaboration suite  
-The Webex App combines team messaging, meetings, and calling in a single interface. Messaging is integrated with Webex's meeting and calling capabilities, making it suited for organizations already standardized on Cisco's collaboration stack.
-
-### Zoho Cliq
-**Type:** Team chat within Zoho ecosystem  
-Zoho Cliq provides channels, direct messages, and integrations with the broader Zoho suite (CRM, Projects, Desk). It is a natural choice for organizations already invested in Zoho products, offering a unified experience across Zoho applications.
+| Platform | Company Valuation / Market Cap | Starting Tier Pricing | Free Tier / Trial Limits | Key Focus & Description |
+|:---|:---|:---|:---|:---|
+| **Microsoft Teams** | ~$3.87 Trillion - $3.94 Trillion *(Microsoft - Public: MSFT)* | **$4.00 / user / month** (billed annually for Microsoft Teams Essentials) | **Free Forever Plan:** Up to 100 participants per meeting, 60-minute group meeting cap, and 5 GB cloud storage per organization. | Unified enterprise collaboration hub bundled within Microsoft 365, featuring persistent channels, meetings, calling, and Office app integration. |
+| **Google Chat** | ~$3.48 Trillion - $3.50 Trillion *(Alphabet - Public: GOOGL)* | **$7.00 / user / month** (billed annually for Google Workspace Business Starter) | **Free Forever (Personal @gmail.com):** 1:1 and group spaces with 15 GB shared Google account storage. **Workspace Business:** 14-day free trial with full Business tier features. | Web and mobile messaging tightly coupled into Google Workspace, Gmail, and Google Meet with Spaces supporting up to 500k members. |
+| **Cisco Webex App** | ~$369 Billion - $383 Billion *(Cisco Systems - Public: CSCO)* | **$12.00 / user / month** (billed annually for Webex Meet Plan) | **Free Forever Plan:** 100 participants per meeting, 40-minute group meeting limit, unlimited 1:1 meetings, unlimited messaging, and digital whiteboarding. | Enterprise-grade collaboration suite combining persistent chat channels, secure enterprise calling, webinars, and HD video meetings. |
+| **Slack** | ~$177 Billion - $183 Billion *(Salesforce - Public: CRM)* | **$7.25 / user / month** (billed annually for Slack Pro) | **Free Forever Plan:** 90 days of searchable message/file history (1-year rolling deletion), 5 GB workspace storage, 10 app integrations, and 1:1 audio/video huddles. | Industry-standard channel-based messaging workspace with rich ecosystem integrations, developer webhooks, and team communication. |
+| **Zoho Cliq** | ~$8.0 Billion - $12.5 Billion *(Zoho Corp - Private / Bootstrapped)* | **$16.20 / month** flat fee (up to 25 users on Standard; or $2.00/user/month for Professional, min 10 users) | **Free Forever Plan:** Unlimited users, 10,000 searchable messages organization-wide, 100 GB file storage, 100 members per channel, and 5-min audio/video recordings. | Lightweight team communication platform deeply integrated with Zoho CRM, Projects, and Desk, optimized for SME workplace collaboration. |
+| **Discord** | ~$8.0 Billion - $8.5 Billion *(Discord Inc. - Private)* | **$2.99 / user / month** (Nitro Basic) | **Free Forever Plan:** Unlimited message history, 10 MB file upload limit, up to 100 servers, 2,000 characters per message, and standard voice/video channels. | Real-time community and team communication platform featuring voice rooms, low-latency streaming channels, and rich bot extensibility. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Team Messaging and Collaboration tools. The open-source ecosystem spans mature enterprise chat servers, topic-based async-first platforms, and emerging AI-native workspaces.
+Self-hosted, community-driven Team Messaging and Collaboration tools, sorted by GitHub stargazers count (descending).
 
-### Mattermost
-**Stack:** Go / React / PostgreSQL | **License:** MIT (Team Edition) / Open Core  
-Mattermost is the most established open-source Slack alternative for developer teams, running as a single Go binary against PostgreSQL—the smallest server footprint among self-hosted options [citation:3][citation:4]. It supports channels, threads, DMs, file sharing, and integrations. The Team Edition provides uncapped message history, while Enterprise features (SSO, guest access, Playbooks workflows) are gated to paid tiers [citation:9]. Installation is straightforward on Debian/Ubuntu via PPA, or containerized via Docker, Podman, or Kubernetes [citation:4]. **Trade-offs:** Mobile push notifications route through Mattermost's Test Push Notification Service (TPNS) on the free tier, which is not recommended for production; paid deployments use the Hosted Push Notification Service (HPNS) [citation:9]. The UI feels modern but some features are tucked into submenus [citation:4].  
-**Best for:** Small to mid-sized developer teams wanting a Slack-like experience with minimal operational overhead and uncapped history.
-
-### Rocket.Chat
+### Rocket.Chat [![GitHub stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers)
 **Stack:** TypeScript / Node.js / MongoDB | **License:** MIT (Community) / Open Core  
-Rocket.Chat is the strongest open-source choice for organizations with strict compliance requirements, offering air-gapped deployment, a compliance center, end-to-end encryption, and role/attribute-based access control [citation:3]. The repository is a monorepo with its own build tooling, making it heavier to operate than Mattermost for small teams [citation:3]. Deployment via Docker Compose requires MongoDB and the server container; SSL is handled by a fronting reverse proxy [citation:4]. **Critical limitation:** The Community edition caps mobile push notifications at 10,000 per month via Rocket.Chat Cloud's gateway; past that cap, push notifications stop until the next cycle [citation:9]. Running your own push path requires building and maintaining a white-labeled mobile app [citation:9].  
-**Best for:** Organizations needing air-gapped or highly regulated deployments with compliance and encryption as first-class requirements.
+Rocket.Chat is an enterprise-grade open-source communication platform engineered for organizations with rigorous compliance and security standards. It supports air-gapped deployments, end-to-end encryption (E2EE), omnichannel customer service routing, Matrix federation, and role-based access control.  
+**Critical consideration:** The Community edition limits push notifications via the Rocket.Chat Cloud gateway to 10,000 per month; larger scale requires enterprise licensing or self-compiled mobile binaries.  
+**Best for:** Regulated industries, healthcare, government, and organizations needing self-hosted compliance and air-gapped messaging.
 
-### Zulip
-**Stack:** Python / PostgreSQL | **License:** Apache 2.0  
-Zulip is the outlier among chat servers: it organizes conversations around **topics within channels** rather than a single channel stream, making it genuinely built for both live and asynchronous work [citation:3]. This topic-based threading is the reason distributed, async-first teams often prefer it—conversations that span days remain coherent and searchable rather than being buried in a single channel stream [citation:3]. It runs as a Python server, with a browser-based client. **Trade-offs:** The UI is less conventional than Slack or Mattermost, and the topic model requires a workflow adjustment for teams accustomed to channel streams [citation:4].  
-**Best for:** Distributed, async-first teams that value organized, searchable conversations over real-time channel chatter.
+### Mattermost [![GitHub stars](https://img.shields.io/github/stars/mattermost/mattermost?style=social&color=white)](https://github.com/mattermost/mattermost/stargazers)
+**Stack:** Go / React / PostgreSQL | **License:** MIT (Team Edition) / Open Core  
+Mattermost is the leading self-hosted Slack alternative tailored for engineering and technical teams. Built as an efficient single Go binary running against PostgreSQL, it provides persistent channels, threaded discussions, slash commands, bot webhooks, and integrated incident playbooks with minimal infrastructure overhead.  
+**Critical consideration:** Mobile push notifications on the free tier route through the Test Push Notification Service (TPNS), while production-grade HPNS requires paid subscriptions or enterprise setups.  
+**Best for:** Technical and software development teams wanting an agile, Slack-compatible workspace with full data sovereignty.
 
-### Element (Matrix)
-**Stack:** JavaScript / Matrix Protocol / Synapse | **License:** AGPL-3.0 (Client) / Multi-licensed  
-Element is the reference web and desktop client for the **Matrix protocol**, not a standalone chat server. Choosing Element means choosing to run a Matrix homeserver (typically Synapse), which is a separate piece of software not included in the Element repository [citation:3]. The payoff is genuine end-to-end encryption and **federation**—conversations can span multiple servers across organizations, making it uniquely suited for cross-company collaboration [citation:3][citation:9]. **Trade-offs:** Synapse is resource-heavy; a 50-person team with active federation and media sharing can consume tens of gigabytes quickly, and sizing for 4 vCPU / 8 GB RAM is a starting point, not a ceiling [citation:9]. Mobile push requires configuring a Matrix push gateway like Sygnal [citation:9].  
-**Best for:** Teams needing true end-to-end encryption or cross-organizational federation, accepting significant operational overhead.
+### Chatwoot [![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)
+**Stack:** Ruby on Rails / Vue.js / PostgreSQL / Redis | **License:** AGPL-3.0  
+Chatwoot is an open-source customer communication and team collaboration platform. It provides shared team inboxes, live web chat, omnichannel messaging (integrating WhatsApp, Email, Telegram, and Facebook), internal collaborator notes, and canned responses to unify customer and internal team communications.  
+**Best for:** Support, marketing, and cross-functional teams that need to collaborate internally on incoming external customer channels.
 
-### Buzz (Block)
+### Buzz (Block) [![GitHub stars](https://img.shields.io/github/stars/block/buzz?style=social&color=white)](https://github.com/block/buzz/stargazers)
 **Stack:** Rust / Nostr Protocol / PostgreSQL / Redis | **License:** Apache 2.0  
-Buzz is a newly launched (July 2026) open-source workspace from Block that unifies team chat, a Git forge, and AI agent collaboration in a single self-hosted relay [citation:2][citation:14]. Its defining feature is **cryptographic identity for both humans and AI agents** using Nostr keys: every message, Git event, and agent action is a signed event, creating a verifiable audit trail of who (or what) did what [citation:2][citation:8]. Agents (Claude Code, Codex, Goose) can join channels, open repositories, submit patches, and review code with their own scoped identities and activity logs [citation:2]. The relay deploys with PostgreSQL, Redis, and S3-compatible storage, costing roughly $15–30/month on Railway [citation:14]. **Important:** The project is very new; mobile apps, push notifications, and some approval mechanisms are still under development [citation:2].  
-**Best for:** Technical teams wanting a self-hosted Slack + GitHub replacement with first-class AI agent identities and cryptographic auditability, accepting early-stage maturity.
+Buzz is an open-source collaboration platform developed by Block that unifies real-time team chat, Git repositories, and first-class AI agent workflows on top of the Nostr protocol. Every message, reaction, code review, and AI agent execution is cryptographically signed, creating an immutable audit trail for human and autonomous AI agent collaboration.  
+**Best for:** AI-forward engineering teams wanting cryptographic auditability and unified chat-plus-code workflows with autonomous agents.
 
-### Stoat (Revolt)
-**Stack:** (Check repository) | **License:** Open Source  
-Stoat (formerly Revolt) is a community-driven, open-source Discord alternative with servers, channels, roles, emoji, and bots [citation:5][citation:11]. It supports text, voice, and growing video capabilities, with self-hosting available for communities wanting full control over moderation and data storage [citation:5]. The ecosystem is still developing, and advanced Discord bot features are not yet as mature [citation:5].  
-**Best for:** Communities and teams wanting a Discord-like experience with open-source transparency and self-hosting options.
+### Zulip [![GitHub stars](https://img.shields.io/github/stars/zulip/zulip?style=social&color=white)](https://github.com/zulip/zulip/stargazers)
+**Stack:** Python / Django / PostgreSQL | **License:** Apache 2.0  
+Zulip pairs real-time chat with a unique stream-and-topic threading structure reminiscent of email threads. Conversations are segmented into narrow topics within channels, allowing distributed teams in different time zones to process conversations asynchronously without losing context or drowning in chat streams.  
+**Best for:** Distributed, asynchronous-first remote teams and open-source communities that prioritize organized, long-running context over noisy chat streams.
 
-### Spacebar
-**Stack:** TypeScript | **License:** AGPL-3.0  
-Spacebar is an attempt to reverse-engineer Discord, implementing the **exact same API** so that Discord bots and integrations can be pointed at a Spacebar server without modification [citation:6]. The server software is mostly working, but the client implementation is still experimental, and the project does not yet recommend production use [citation:6].  
-**Best for:** Developers and communities wanting API-level Discord compatibility in a self-hosted server, accepting that the client ecosystem is still maturing.
+### SimpleX Chat [![GitHub stars](https://img.shields.io/github/stars/simplex-chat/simplex-chat?style=social&color=white)](https://github.com/simplex-chat/simplex-chat/stargazers)
+**Stack:** Haskell / Kotlin / Swift | **License:** AGPL-3.0  
+SimpleX Chat is a privacy-first, decentralized messaging network built entirely without user identifiers (no user IDs, phone numbers, usernames, or public keys exposed to network servers). It supports end-to-end encrypted direct messages, self-hosted chat servers, hidden group profiles, and audio/video calling.  
+**Best for:** Teams and collectives requiring extreme anonymity, surveillance resistance, and zero-metadata messaging.
+
+### Element (Matrix) [![GitHub stars](https://img.shields.io/github/stars/element-hq/element-web?style=social&color=white)](https://github.com/element-hq/element-web/stargazers)
+**Stack:** TypeScript / React / Matrix Protocol | **License:** AGPL-3.0  
+Element is the flagship client for the decentralized Matrix communication protocol. It features native end-to-end encryption, cross-signing identity verification, cross-organization server federation, and voice/video rooms powered by WebRTC, letting users communicate seamlessly across different independently hosted homeservers.  
+**Best for:** Federated collaboration between independent companies, academic institutions, and defense/public-sector consortia.
+
+### Tinode [![GitHub stars](https://img.shields.io/github/stars/tinode/chat?style=social&color=white)](https://github.com/tinode/chat/stargazers)
+**Stack:** Go / gRPC / MySQL / PostgreSQL / RethinkDB | **License:** GPL-3.0  
+Tinode is a lightweight, high-performance instant messaging server written in Go. Designed as an open-source alternative to WhatsApp and Telegram, it supports real-time text, voice/video calling, push notifications, and customizable bot integrations over gRPC and WebSockets with very low resource usage.  
+**Best for:** Developers looking to embed custom instant messaging within applications or deploy low-resource self-hosted chat.
+
+### Matrix Synapse [![GitHub stars](https://img.shields.io/github/stars/matrix-org/synapse?style=social&color=white)](https://github.com/matrix-org/synapse/stargazers)
+**Stack:** Python / Twisted / Rust / PostgreSQL | **License:** AGPL-3.0  
+Synapse is the reference Matrix homeserver implementation, handling routing, distributed state resolution, decentralized room storage, and federated message synchronization across the global Matrix federation network. It pairs with clients like Element, Cinny, and FluffyChat.  
+**Best for:** System administrators and DevOps deploying the backbone infrastructure for a federated, self-hosted Matrix ecosystem.
+
+### Spacebar [![GitHub stars](https://img.shields.io/github/stars/spacebarchat/spacebarchat?style=social&color=white)](https://github.com/spacebarchat/spacebarchat/stargazers)
+**Stack:** TypeScript / Node.js / Express | **License:** AGPL-3.0  
+Spacebar is an open-source, self-hostable Discord-compatible communications platform. It implements Discord-compatible API endpoints and gateway protocol layers, enabling existing Discord bots, clients, and integrations to connect to a private, user-controlled server without code modification.  
+**Best for:** Communities and developer teams desiring a Discord-like experience with complete server control and bot compatibility.
+
+### Colanode [![GitHub stars](https://img.shields.io/github/stars/colanode/colanode?style=social&color=white)](https://github.com/colanode/colanode/stargazers)
+**Stack:** TypeScript / Rust / CRDTs (Yjs) / SQLite | **License:** AGPL-3.0  
+Colanode is an open-source, local-first collaboration workspace that marries Slack-style team chat channels with Notion-style rich-text documents and databases. Powered by Conflict-free Replicated Data Types (CRDTs), it guarantees real-time offline capability and instant synchronization.  
+**Best for:** Teams looking for a unified hybrid of real-time messaging, asynchronous knowledge base documentation, and local-first data resilience.
+
+### Cinny [![GitHub stars](https://img.shields.io/github/stars/cinnyapp/cinny?style=social&color=white)](https://github.com/cinnyapp/cinny/stargazers)
+**Stack:** JavaScript / React / Matrix SDK | **License:** MIT / AGPL-3.0  
+Cinny is an ultra-clean, lightweight web and desktop client for Matrix. Focusing on speed, elegant design, and simplicity, it presents an intuitive Slack/Discord-style interface on top of Matrix homeservers without the complexity often found in enterprise clients.  
+**Best for:** Teams and individual users on Matrix wanting an uncluttered, fast, and modern desktop/browser chat experience.
+
+### Tailchat [![GitHub stars](https://img.shields.io/github/stars/msgbyte/tailchat?style=social&color=white)](https://github.com/msgbyte/tailchat/stargazers)
+**Stack:** TypeScript / React / Moleculer / MongoDB | **License:** Apache 2.0  
+Tailchat is an open-source, plugin-extensible digital workspace and instant messaging system. Built around a microservices backend architecture, it provides servers, channels, voice chat, and an ecosystem of community plugins for task management, rich embeds, and bot automation.  
+**Best for:** Communities and organizations seeking a customizable, modular Slack/Discord alternative with microservices scalability.
+
+### Stoat (formerly Revolt) [![GitHub stars](https://img.shields.io/github/stars/stoatchat/stoatchat?style=social&color=white)](https://github.com/stoatchat/stoatchat/stargazers)
+**Stack:** Rust / TypeScript / Actix / MongoDB | **License:** AGPL-3.0  
+Stoat (formerly Revolt) is an open-source Discord alternative designed for privacy-conscious communities and teams. It supports servers, nested text/voice channels, customizable roles, bots, and user badges with a responsive web and desktop frontend.  
+**Best for:** Gaming groups, tech communities, and distributed teams needing community server dynamics with self-hosted data ownership.
+
+### Wire Server [![GitHub stars](https://img.shields.io/github/stars/wireapp/wire-server?style=social&color=white)](https://github.com/wireapp/wire-server/stargazers)
+**Stack:** Haskell / Kubernetes / Cassandra / Elasticsearch | **License:** AGPL-3.0  
+Wire is an enterprise secure collaboration platform emphasizing audited end-to-end encryption based on the Proteus protocol. It delivers messaging, conference calling, and file sharing with strict European privacy compliance (GDPR) and turnkey Kubernetes deployment configurations.  
+**Best for:** Enterprises, security agencies, and legal/financial firms requiring end-to-end encrypted team communication with compliance certification.
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Federation | E2EE | AI Agents | Self-Hosted | Best For |
-|----------|---------|-------|------------|------|-----------|-------------|----------|
-| **Slack** | Proprietary | Cloud | ❌ | ❌ | (Apps) | ❌ | Industry-standard channels |
-| **Microsoft Teams** | Proprietary | Cloud | ❌ | ❌ | (Copilot) | ❌ | Microsoft 365 estates |
-| **Google Chat** | Proprietary | Cloud | ❌ | ❌ | ❌ | ❌ | Google Workspace |
-| **Discord** | Proprietary | Cloud | ❌ | ❌ | (Bots) | ❌ | Community servers |
-| **Mattermost** | MIT (Team) | Go/Postgres | ❌ | ❌ | (Apps) | ✅ | Small dev teams, low ops |
-| **Rocket.Chat** | MIT (Community) | TypeScript/Mongo | (Federation) | ✅ | (Apps) | ✅ | Air-gapped/compliance |
-| **Zulip** | Apache 2.0 | Python/Postgres | ❌ | ❌ | ❌ | ✅ | Async-first topic threads |
-| **Element (Matrix)** | AGPL (Client) | JS/Synapse | ✅ | ✅ | ❌ | ✅ (Synapse) | Federation + encryption |
-| **Buzz (Block)** | Apache 2.0 | Rust/Nostr | (Nostr) | (Signed events) | ✅ First-class | ✅ | AI + human shared workspace |
-| **Stoat** | Open Source | (Check) | ❌ | ❌ | (Bots) | ✅ | Discord-like communities |
-| **Spacebar** | AGPL-3.0 | TypeScript | ❌ | ❌ | (Discord bots) | ✅ | Discord API compatibility |
+| Software | Model | License / Host | Primary Stack | Federation | E2EE | AI Native | Key Differentiator |
+|:---|:---|:---|:---|:---|:---|:---|:---|
+| **Microsoft Teams** | SaaS | Commercial | Cloud | ❌ | Optional (1:1) | ✅ Copilot | Deep Microsoft 365 enterprise office bundle |
+| **Google Chat** | SaaS | Commercial | Cloud | ❌ | ❌ | ✅ Gemini | Seamless integration with Google Workspace |
+| **Cisco Webex App** | SaaS | Commercial | Cloud | ❌ | ✅ (Enterprise) | ✅ AI Assistant | Hardened telecom calling and high-capacity video |
+| **Slack** | SaaS | Commercial | Cloud | ❌ | ❌ | ✅ Slack AI | Gold standard integrations ecosystem and channels |
+| **Zoho Cliq** | SaaS | Commercial | Cloud | ❌ | ❌ | ✅ Zia | Cost-effective suite integration for SMEs |
+| **Discord** | SaaS | Commercial | Cloud | ❌ | ❌ | (Bots) | Low-latency voice channels and community hubs |
+| **Rocket.Chat** | Open Source | MIT / Open Core | TypeScript / Mongo | (Matrix) | ✅ | (Apps) | Air-gapped compliance and enterprise security |
+| **Mattermost** | Open Source | MIT / Open Core | Go / PostgreSQL | ❌ | ❌ | (Plugins) | Low server overhead, developer workflow focus |
+| **Chatwoot** | Open Source | AGPL-3.0 | Ruby / Vue / Postgres | ❌ | ❌ | (AI Inbox) | Customer omnichannel support + internal team chat |
+| **Buzz (Block)** | Open Source | Apache 2.0 | Rust / Nostr / Postgres| (Nostr) | (Signed Events)| ✅ First-class | Signed cryptographic identity for humans + AI agents |
+| **Zulip** | Open Source | Apache 2.0 | Python / Postgres | ❌ | ❌ | ❌ | Stream-and-topic async threaded conversation model |
+| **SimpleX Chat** | Open Source | AGPL-3.0 | Haskell / Mobile | (SimpleX) | ✅ | ❌ | Zero-metadata messaging without user IDs |
+| **Element (Matrix)** | Open Source | AGPL-3.0 | TypeScript / React | ✅ Matrix | ✅ | ❌ | Decentralized cross-org federation and E2EE |
+| **Tinode** | Open Source | GPL-3.0 | Go / gRPC | ❌ | ❌ | (Bots) | Lightweight high-throughput instant messaging daemon |
+| **Matrix Synapse** | Open Source | AGPL-3.0 | Python / Rust | ✅ Matrix | ✅ | ❌ | Reference Matrix protocol federation homeserver |
+| **Spacebar** | Open Source | AGPL-3.0 | TypeScript / Express | ❌ | ❌ | (Discord bots) | Drop-in Discord API & gateway server compatibility |
+| **Colanode** | Open Source | AGPL-3.0 | TypeScript / CRDTs | ❌ | ❌ | ❌ | Local-first offline-first chat + document hybrid |
+| **Cinny** | Open Source | MIT / AGPL-3.0 | JavaScript / React | ✅ Matrix | ✅ | ❌ | Minimalist, elegant web/desktop client for Matrix |
+| **Tailchat** | Open Source | Apache 2.0 | TypeScript / Microservices| ❌ | ❌ | (Plugins) | Microservices architecture with plugin ecosystem |
+| **Stoat** | Open Source | AGPL-3.0 | Rust / MongoDB | ❌ | ❌ | (Bots) | Discord-style community channels and roles |
+| **Wire Server** | Open Source | AGPL-3.0 | Haskell / Cassandra | ❌ | ✅ Proteus | ❌ | Enterprise E2EE collaboration and European privacy |
 
 ---
 
@@ -123,11 +170,12 @@ Spacebar is an attempt to reverse-engineer Discord, implementing the **exact sam
 Contributions are welcome! If you know of an open-source Team Messaging or Collaboration tool that should be listed here, please open a pull request with:
 
 - Project name and URL
+- Stargazer count badge
 - Brief description (1–2 sentences)
 - Stack and license
 - Why it stands out
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem **splits** between conventional Slack-style chat servers (Mattermost, Rocket.Chat), async-first topic threading (Zulip), federated encrypted chat (Element), and emerging AI-native workspaces (Buzz). Mattermost is the lowest-overhead choice for small developer teams, Rocket.Chat is the strongest for compliance-heavy deployments, Zulip is the best fit for distributed async teams, and Buzz is the most ambitious effort to unify chat, code, and AI agents under cryptographic auditability—though it is still very new.
+Please ensure the project is actively maintained and genuinely open-source.
 
 ---
 
